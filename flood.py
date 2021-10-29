@@ -10,7 +10,7 @@ dogrulama = input("Çift Haneli Doğrulamanız Aktif mi ? E/H : ")
 targetName = input("Flood Atılacak Kişinin Kullanıcı Adını Giriniz : : ")
 text = input("Flood Metnini Giriniz : ")
 
-driver = webdriver.Firefox() 
+driver = webdriver.Chrome() #Kullandıgınız Tarayıcıya Göre Değiştirin Firefox Kullanıyorsanız .Firefox() Yapın
 driver.maximize_window()
 
 def login():
