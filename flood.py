@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import time
 
-print("NOT: Sadece Talip Ettiğiniz Hesapları ya da Hesabı Açık Olan Kullanıcılarda Çalışır !\nŞaka Tooludur :)")
+print("NOT: Sadece Takip Ettiğiniz Hesapları ya da Hesabı Açık Olan Kullanıcılarda Çalışır !\nŞaka Tooludur :)")
 username = input("Lütfen Kullanıcı Adınızı Giriniz : ") 
 password = input("Lütfen Şifrenizi Giriniz : ") 
 dogrulama = input("Çift Haneli Doğrulamanız Aktif mi ? E/H : ")
